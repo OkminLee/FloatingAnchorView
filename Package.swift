@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FloatingAnchorView",
+    name: "floating-anchor-view",
     platforms: [
         .iOS(.v14),
     ],

@@ -6,6 +6,10 @@ A SwiftUI view modifier that adds a floating, draggable view that snaps to corne
 
 FloatingAnchorView provides a simple way to add floating views to your SwiftUI application. The floating view can be dragged around the screen and will automatically snap to the nearest corner when released.
 
+
+https://github.com/user-attachments/assets/f8d6c41b-b3c4-4a47-928e-155428b6c2bd
+
+
 ## Features
 
 - 🎯 Automatic corner snapping

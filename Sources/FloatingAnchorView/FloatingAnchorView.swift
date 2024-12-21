@@ -22,7 +22,6 @@ struct FloatingAnchorView<Content: View>: View {
         GeometryReader { geometry in
             content()
                 .frame(width: configuration.viewSize.width, height: configuration.viewSize.height)
-                .background(backgroundView)
                 .position(
                     x: anchorPosition.current.x + dragOffset.width,
                     y: anchorPosition.current.y + dragOffset.height
@@ -32,11 +31,6 @@ struct FloatingAnchorView<Content: View>: View {
                 .zIndex(999)
                 .drawingGroup()
         }
-    }
-    
-    private var backgroundView: some View {
-        RoundedRectangle(cornerRadius: 8)
-            .fill(Color.black.opacity(0.7))
     }
     
     private var dragGesture: some Gesture {
